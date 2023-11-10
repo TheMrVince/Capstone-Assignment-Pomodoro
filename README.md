@@ -16,12 +16,12 @@
 ### App Evaluation
 
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Productivity
+- **Mobile:** Mobile is required for this app as it would be intended to study anywhere at anytime. Mobile phones provide that criteria, and would be convenient in long-term. It would make use of real-time and push.
+- **Story:** The value of this app would be received positively as there are many users (such as college students) who could benefit from this idea. In terms of peer review, I believe they would benefit from the idea as well since they are university students.
+- **Market:** This app is designed to target people who do not have a firm structure of studying. The Pomodoro app could be their introduction to an effective study habit.
+- **Habit:** This app would be meant to be used often (whenever studying is needed). It would be something to push in to and leave in the background.
+- **Scope:** The idea of a Pomodoro app is not technically challenging as the coding logic and conceptual idea around it is not difficult. The structure I am planning is clearly defined to make it easy to use for the user.
 
 ## Product Spec
 
@@ -29,17 +29,25 @@
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+*As a college student with a hectic schedule, I want to efficiently manage my study sessions and breaks to enhance productivity. 
+*To achieve this, I'd like to use a Pomodoro application that aligns with my academic needs. These needs can be consisted of:
+1.**Effective Study Habits**
+  - As a user, I would like to integrate a healthy and effective study habit to assist my academic studies.
+2.**Task List Integration**
+  - The option of making a list of tasks I want to acheive during my study sessions would create a bigger incentive to stay focused and study.
+3.**User-Friendly Inteface**
+  - Having a clean and easy to use interface would encourage the increased use of the application as it would not be too complicated to set up a Pomodoro timer.
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- [ ] Login
+* User can login
+- [ ] Registration Screen
+* User can create a new account
+- [ ] Calendar
+* Visualize dates or events into calendar form
+- [ ] Settings
+* User can configure app options
 
 ### 3. Navigation
 
