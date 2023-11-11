@@ -11,11 +11,10 @@
 
 ### Description
 
-[Description of your app]
+The purpose of this Pomodoro Application is to create a healthy and effective study habit for people who are looking to focus. As a college student, it can be difficult to study without any incentive or obligation to. With the help of the "Pomodoro Method," I and many other users can benefit from the method for an effective and efficient way of studying.
 
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
 - **Category:** Productivity
 - **Mobile:** Mobile is required for this app as it would be intended to study anywhere at anytime. Mobile phones provide that criteria, and would be convenient in long-term. It would make use of real-time and push.
 - **Story:** The value of this app would be received positively as there are many users (such as college students) who could benefit from this idea. In terms of peer review, I believe they would benefit from the idea as well since they are university students.
@@ -53,27 +52,40 @@
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home Screen
+* Calendar
+* Tasks
+* Settings
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- [ ] Login Screen
+* => Home
+- [ ] Registration Screen
+* => Home
+- [ ] Home Screen
+* => Timer
+* => Calendar
+* => Tasks
+* => Settings 
+- [ ] Calendar Screen
+* => Home
+* => Tasks
+* => Settings
+- [ ] Tasks Screen
+* => Home
+* => Calendar
+* => Settings
+- [ ] Settings Screen
+* => Home
+* => Calendar
+* => Tasks 
 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="flowNavigation.png" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 
