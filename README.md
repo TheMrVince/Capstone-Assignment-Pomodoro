@@ -39,7 +39,7 @@ The purpose of this Pomodoro Application is to create a healthy and effective st
 
 ### 2. Screen Archetypes
 
-- [ ] Login
+- [x] Login
 * User can login
 - [ ] Registration Screen
 * User can create a new account
@@ -59,7 +59,7 @@ The purpose of this Pomodoro Application is to create a healthy and effective st
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Login Screen
+- [x] Login Screen
 * => Home
 - [ ] Registration Screen
 * => Home
