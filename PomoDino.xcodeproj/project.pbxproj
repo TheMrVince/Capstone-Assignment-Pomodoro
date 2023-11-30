@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360CFBDD2B15EA5D00B82D10 /* PomoDinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360CFBDC2B15EA5D00B82D10 /* PomoDinoApp.swift */; };
+		360CFBDF2B15EA5D00B82D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360CFBDE2B15EA5D00B82D10 /* ContentView.swift */; };
+		360CFBE12B15EA6000B82D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360CFBE02B15EA6000B82D10 /* Assets.xcassets */; };
+		360CFBE42B15EA6000B82D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360CFBE32B15EA6000B82D10 /* Preview Assets.xcassets */; };
+		360CFBEC2B15EA9600B82D10 /* startupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360CFBEB2B15EA9600B82D10 /* startupView.swift */; };
+		360CFBEE2B15F04100B82D10 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360CFBED2B15F04100B82D10 /* loginView.swift */; };
+		36A07BE02B16C605008EC0C6 /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A07BDF2B16C605008EC0C6 /* tabView.swift */; };
+		36A07BE42B16C720008EC0C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A07BE32B16C720008EC0C6 /* HomeView.swift */; };
+		36A07BEA2B16CCC2008EC0C6 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A07BE92B16CCC2008EC0C6 /* ShopView.swift */; };
+		36A07BEC2B16CCCB008EC0C6 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A07BEB2B16CCCB008EC0C6 /* TaskView.swift */; };
+		36A07BEE2B16CCDD008EC0C6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A07BED2B16CCDD008EC0C6 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		360CFBD92B15EA5D00B82D10 /* PomoDino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoDino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		360CFBDC2B15EA5D00B82D10 /* PomoDinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoDinoApp.swift; sourceTree = "<group>"; };
+		360CFBDE2B15EA5D00B82D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		360CFBE02B15EA6000B82D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		360CFBE32B15EA6000B82D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		360CFBEB2B15EA9600B82D10 /* startupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startupView.swift; sourceTree = "<group>"; };
+		360CFBED2B15F04100B82D10 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		36A07BDF2B16C605008EC0C6 /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
+		36A07BE32B16C720008EC0C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		36A07BE92B16CCC2008EC0C6 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		36A07BEB2B16CCCB008EC0C6 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		36A07BED2B16CCDD008EC0C6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360CFBD62B15EA5D00B82D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360CFBD02B15EA5D00B82D10 = {
+			isa = PBXGroup;
+			children = (
+				360CFBDB2B15EA5D00B82D10 /* PomoDino */,
+				360CFBDA2B15EA5D00B82D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		360CFBDA2B15EA5D00B82D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360CFBD92B15EA5D00B82D10 /* PomoDino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360CFBDB2B15EA5D00B82D10 /* PomoDino */ = {
+			isa = PBXGroup;
+			children = (
+				360CFBDC2B15EA5D00B82D10 /* PomoDinoApp.swift */,
+				360CFBDE2B15EA5D00B82D10 /* ContentView.swift */,
+				36A07BE22B16C6DB008EC0C6 /* Views */,
+				360CFBE02B15EA6000B82D10 /* Assets.xcassets */,
+				360CFBE22B15EA6000B82D10 /* Preview Content */,
+			);
+			path = PomoDino;
+			sourceTree = "<group>";
+		};
+		360CFBE22B15EA6000B82D10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				360CFBE32B15EA6000B82D10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		360CFBEA2B15EA7F00B82D10 /* StartViews */ = {
+			isa = PBXGroup;
+			children = (
+				360CFBEB2B15EA9600B82D10 /* startupView.swift */,
+				360CFBED2B15F04100B82D10 /* loginView.swift */,
+			);
+			path = StartViews;
+			sourceTree = "<group>";
+		};
+		36A07BDE2B16C4E0008EC0C6 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				36A07BDF2B16C605008EC0C6 /* tabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		36A07BE12B16C622008EC0C6 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				36A07BE32B16C720008EC0C6 /* HomeView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		36A07BE22B16C6DB008EC0C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				360CFBEA2B15EA7F00B82D10 /* StartViews */,
+				36A07BDE2B16C4E0008EC0C6 /* TabView */,
+				36A07BE12B16C622008EC0C6 /* HomeViews */,
+				36A07BE62B16CC65008EC0C6 /* ShopViews */,
+				36A07BE72B16CC73008EC0C6 /* TasksViews */,
+				36A07BE82B16CC8C008EC0C6 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36A07BE62B16CC65008EC0C6 /* ShopViews */ = {
+			isa = PBXGroup;
+			children = (
+				36A07BE92B16CCC2008EC0C6 /* ShopView.swift */,
+			);
+			path = ShopViews;
+			sourceTree = "<group>";
+		};
+		36A07BE72B16CC73008EC0C6 /* TasksViews */ = {
+			isa = PBXGroup;
+			children = (
+				36A07BEB2B16CCCB008EC0C6 /* TaskView.swift */,
+			);
+			path = TasksViews;
+			sourceTree = "<group>";
+		};
+		36A07BE82B16CC8C008EC0C6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				36A07BED2B16CCDD008EC0C6 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		360CFBD82B15EA5D00B82D10 /* PomoDino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360CFBE72B15EA6000B82D10 /* Build configuration list for PBXNativeTarget "PomoDino" */;
+			buildPhases = (
+				360CFBD52B15EA5D00B82D10 /* Sources */,
+				360CFBD62B15EA5D00B82D10 /* Frameworks */,
+				360CFBD72B15EA5D00B82D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomoDino;
+			productName = PomoDino;
+			productReference = 360CFBD92B15EA5D00B82D10 /* PomoDino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		360CFBD12B15EA5D00B82D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					360CFBD82B15EA5D00B82D10 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 360CFBD42B15EA5D00B82D10 /* Build configuration list for PBXProject "PomoDino" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 360CFBD02B15EA5D00B82D10;
+			productRefGroup = 360CFBDA2B15EA5D00B82D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360CFBD82B15EA5D00B82D10 /* PomoDino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		360CFBD72B15EA5D00B82D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360CFBE42B15EA6000B82D10 /* Preview Assets.xcassets in Resources */,
+				360CFBE12B15EA6000B82D10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360CFBD52B15EA5D00B82D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360CFBDF2B15EA5D00B82D10 /* ContentView.swift in Sources */,
+				360CFBDD2B15EA5D00B82D10 /* PomoDinoApp.swift in Sources */,
+				36A07BEA2B16CCC2008EC0C6 /* ShopView.swift in Sources */,
+				36A07BEE2B16CCDD008EC0C6 /* SettingsView.swift in Sources */,
+				36A07BE02B16C605008EC0C6 /* tabView.swift in Sources */,
+				36A07BE42B16C720008EC0C6 /* HomeView.swift in Sources */,
+				360CFBEE2B15F04100B82D10 /* loginView.swift in Sources */,
+				360CFBEC2B15EA9600B82D10 /* startupView.swift in Sources */,
+				36A07BEC2B16CCCB008EC0C6 /* TaskView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		360CFBE52B15EA6000B82D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		360CFBE62B15EA6000B82D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		360CFBE82B15EA6000B82D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PomoDino/Preview Content\"";
+				DEVELOPMENT_TEAM = NBZTFZ5FKS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.PomoDino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		360CFBE92B15EA6000B82D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PomoDino/Preview Content\"";
+				DEVELOPMENT_TEAM = NBZTFZ5FKS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bruh.PomoDino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360CFBD42B15EA5D00B82D10 /* Build configuration list for PBXProject "PomoDino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360CFBE52B15EA6000B82D10 /* Debug */,
+				360CFBE62B15EA6000B82D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360CFBE72B15EA6000B82D10 /* Build configuration list for PBXNativeTarget "PomoDino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360CFBE82B15EA6000B82D10 /* Debug */,
+				360CFBE92B15EA6000B82D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 360CFBD12B15EA5D00B82D10 /* Project object */;
+}
