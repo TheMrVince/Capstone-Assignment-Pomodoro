@@ -61,9 +61,9 @@ The purpose of this Pomodoro Application is to create a healthy and effective st
 
 - [x] Login Screen
 * => Home
-- [ ] Registration Screen
+- [x] Registration Screen
 * => Home
-- [ ] Home Screen
+- [x] Home Screen
 * => Timer
 * => Calendar
 * => Tasks
@@ -72,11 +72,11 @@ The purpose of this Pomodoro Application is to create a healthy and effective st
 * => Home
 * => Tasks
 * => Settings
-- [ ] Tasks Screen
+- [x] Tasks Screen
 * => Home
 * => Calendar
 * => Settings
-- [ ] Settings Screen
+- [x] Settings Screen
 * => Home
 * => Calendar
 * => Tasks 
@@ -85,18 +85,3 @@ The purpose of this Pomodoro Application is to create a healthy and effective st
 
 [Add picture of your hand sketched wireframes in this section]
 <img src="flowNavigation.png" width=600>
-
-
-## Schema 
-
-[This section will be completed in Unit 9]
-
-### Models
-
-[Add table of models]
-
-### Networking
-
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
